@@ -25,7 +25,7 @@ class EquipoController extends Controller
             'marca_modelo' => 'required|string|max:150',
             'problema_reportado' => 'required|string',
             'nombre_cliente' => 'required|string|max:100',
-            'telefono' => 'required|string|digits:15',
+            'telefono' => 'required|string|digits:10',
             'estado' => 'required|in:recibido,diagnosticando,reparando,listo,entregado'
         ], [
             'tipo_equipo.required' => 'El tipo de equipo es obligatorio',
