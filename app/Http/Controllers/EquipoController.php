@@ -25,7 +25,7 @@ class EquipoController extends Controller
             'marca_modelo' => 'required|string|max:150',
             'problema_reportado' => 'required|string',
             'nombre_cliente' => 'required|string|max:100',
-            'telefono' => 'required|string|max:15',
+            'telefono' => 'required|string|digits:15',
             'estado' => 'required|in:recibido,diagnosticando,reparando,listo,entregado'
         ], [
             'tipo_equipo.required' => 'El tipo de equipo es obligatorio',
@@ -54,14 +54,14 @@ class EquipoController extends Controller
             'marca_modelo' => 'required|string|max:150',
             'problema_reportado' => 'required|string',
             'nombre_cliente' => 'required|string|max:100',
-            'telefono' => 'required|string|max:15',
+            'telefono' => 'required|string|digits:10',
             'estado' => 'required|in:recibido,diagnosticando,reparando,listo,entregado'
         ], [
             'tipo_equipo.required' => 'El tipo de equipo es obligatorio',
             'marca_modelo.required' => 'La marca/modelo es obligatoria',
             'problema_reportado.required' => 'El problema reportado es obligatorio',
             'nombre_cliente.required' => 'El nombre del cliente es obligatorio',
-            'telefono.required' => 'El teléfono es obligatorio',
+            'telefono.required' => 'El teléfono es obligatorio ',
             'estado.required' => 'El estado es obligatorio',
         ]);
 
