@@ -66,4 +66,4 @@
         <a href="{{ route('equipos.index') }}" class="btn btn-secondary">Cancelar</a>
         <button type="submit" class="btn btn-primary">Actualizar</button>
     </form>
-@endsection
+@endsection 
