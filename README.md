@@ -1,8 +1,8 @@
 # Tarea - Desarrollo en Plataformas
 
-**Estudiante:** Dana Belen Analuisa Caza  
+**Estudiante:** Dana Bahamonde
 **Fecha:** 19 de diciembre de 2025  
-**Paralelo:** [TU PARALELO]
+**Paralelo:** 
 
 ---
 
