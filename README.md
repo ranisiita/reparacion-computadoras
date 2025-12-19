@@ -44,3 +44,7 @@
 **Respuesta:** No, se implementó un soft delete.
 
 **Razón:** Se recomienda NO eliminar equipos entregados para mantener el historial técnico solicitado, permitiendo auditoría y trazabilidad de trabajos realizados.
+
+
+### 4. Enlace Reporsitorio GitHub:
+https://github.com/ranisiita/reparacion-computadoras.git
